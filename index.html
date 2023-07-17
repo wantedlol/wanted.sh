@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wanted.sh</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="resources/pfp.jpg">
+</head>
+<body>
+    <audio id="audio">
+        <source src="resources/audio.mp3" type="audio/mp3" />
+    </audio>
+    <script>
+        var audio = document.getElementById("audio");
+        audio.volume = 0.6;
+    </script>
+    <div id="cover" class="cover">
+        <button style="margin-top: 15%; box-shadow: 0px 0px 15px 5px rgb(36, 34, 46);" class="container" onclick="document.getElementById('cover').style.display = 'none';document.getElementsByTagName('audio')[0].play();">
+            Proceed
+        </button>
+    </div>
+    <a href="">
+        <h1 class="centertext glowtext" style="font-size: 25px;">wanted.sh </h1>
+    </a>
+
+    <div class="container card centertext">
+        <img class="circle outline glow" style="height: 150px; width: 150px" src="resources/pfp.jpg">
+        <h1 style="font-size: 20px;">alex</h1>
+        <h2 class="light" style="font-size: 16px;">Software Engineer</h2>
+        <h2 class="superlight" style="font-size: 12px;">wanted.sh#4978</h2>
+        <hr>
+        <div class="container card2">
+            <a href="https://github.com/wantedlol">
+                <img class="circle glow" style="height: 50px; width: 50px" src="resources/git.png">
+            </a>
+        </div>
+    </div>  
+</body>
+</html>
