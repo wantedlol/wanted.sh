@@ -54,8 +54,7 @@ a {
 }
 
 .container {
-    left: 0;
-    right: 0;
+    left: 50%;
     margin: auto;
     border: none;
 }
@@ -63,10 +62,10 @@ a {
 .card {
     background-color: rgb(15, 14, 20);
     border-radius: 4px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
     height: fit-content;
     width: fit-content;
 }
